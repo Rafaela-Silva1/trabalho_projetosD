@@ -94,6 +94,10 @@
       <a name="label" val="imm"/>
       <a name="width" val="12"/>
     </comp>
+    <comp lib="0" loc="(1280,1090)" name="Tunnel">
+      <a name="label" val="opcode"/>
+      <a name="width" val="4"/>
+    </comp>
     <comp lib="0" loc="(1280,690)" name="Tunnel">
       <a name="label" val="opcode"/>
       <a name="width" val="4"/>
@@ -313,6 +317,8 @@ d0 170
     <wire from="(1240,500)" to="(1240,540)"/>
     <wire from="(1240,500)" to="(1470,500)"/>
     <wire from="(1240,540)" to="(1470,540)"/>
+    <wire from="(1250,1090)" to="(1250,1150)"/>
+    <wire from="(1250,1090)" to="(1280,1090)"/>
     <wire from="(140,810)" to="(200,810)"/>
     <wire from="(1440,580)" to="(1470,580)"/>
     <wire from="(1450,520)" to="(1470,520)"/>
